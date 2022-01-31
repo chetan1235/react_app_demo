@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Information from "./Information";
+//import Information from "./Information";
 
 class FirstClassComponent extends Component{
 
@@ -23,7 +23,6 @@ class FirstClassComponent extends Component{
         <h5>{ this.state.version }</h5><br />
         <h5>{ this.state.auther }</h5><br />
         <h5>{ this.state.usage }</h5>
-        <Information title={ this.state.appname} />
         </div>
     )
 

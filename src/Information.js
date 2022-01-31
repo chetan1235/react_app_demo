@@ -3,7 +3,8 @@ import './info.css';
 function Information(props){
     return (
         <div className="bg">
-            <h4>{ props.title}</h4>
+            <h4>{ props.title }</h4>
+            <h5>Status: { props.status }</h5>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type 
