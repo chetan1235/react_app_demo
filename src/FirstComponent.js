@@ -4,6 +4,7 @@ import React, { Component } from "react";
 class FirstComponent extends Component{
     constructor(props){
         super(props);
+        console.log("message displayed in constructor method")
         this.props = props;
         this.state = {
             type: 'Car',
@@ -15,6 +16,16 @@ class FirstComponent extends Component{
 
         this.changestate = this.changestate.bind(this);
         this.chnageCounter = this.chnageCounter.bind(this);
+    }
+
+
+    componentDidMount(){
+        console.log("message diplayed on did mount menthod");
+
+    }
+
+    componentDidUpdate(){
+        console.log("message displayed on updating phase");
     }
 
     changestate(){

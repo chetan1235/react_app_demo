@@ -1,11 +1,14 @@
 //import Information from "./Information";
 //import FirstClassComponent from "./FirstClassComponent";
 //import FirstComponent from "./FirstComponent";
-import Register from "./Register";
+//import ControlComponentRegister from "./ControlComponentRegister";
+import UnControlComponentRegister from "./UnControlComponentRegister";
+
 function App(){
 
   return (
-    <Register></Register>
+    
+    <UnControlComponentRegister></UnControlComponentRegister>
   );
 
 }

@@ -1,0 +1,18 @@
+.register_form{
+    width: 400px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 4%;
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    line-height: 3;
+    background-color: burlywood;
+}
+.main{
+    position: relative;
+}
+.register_form label{
+    margin-right: 4px;
+    text-align: left;
+}
