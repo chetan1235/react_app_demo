@@ -2,15 +2,17 @@
 //import FirstClassComponent from "./FirstClassComponent";
 //import FirstComponent from "./FirstComponent";
 //import ControlComponentRegister from "./ControlComponentRegister";
-//import UnControlComponentRegister from "./UnControlComponentRegister";
+import UnControlComponentRegister from "./UnControlComponentRegister";
 
 import UserList from "./UserList";
 
 function App(){
 
   return (
-    
+    <div>
+    <UnControlComponentRegister />
     <UserList></UserList>
+    </div>
   );
 
 }

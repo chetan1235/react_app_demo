@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import HocButton from "./HocButton";
 import './register.css';
+
 class UnControlComponentRegister extends Component{
     constructor(props){
         super(props);
@@ -38,7 +40,13 @@ class UnControlComponentRegister extends Component{
                 <input type="text" name="city" ref={ this.city } />
                 </div>
                 <div>
-                <button onClick={ this.handleSubmit }>Submit form</button>
+                <button onClick={ this.handleSubmit }>Submit form</button>    
+                <HocButton color="green" name="success" />
+                <HocButton color="red" name="Error" />
+                <HocButton color="yellow" name="warning" />
+                <HocButton color="blue" name="Information" />
+                <HocButton color="gray" name="cancel" />    
+                
                 </div>
             </div>
             </div>

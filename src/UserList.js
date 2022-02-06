@@ -47,7 +47,7 @@ class UserList extends Component{
                 <tbody>
                 {
                     infoData.map((item)=> {
-                      return(  <tr>
+                      return(  <tr key={ item.id }>
                             <td>{ item.id }</td>
                             <td><img src={ item.avatar } /></td>
                             <td>{ item.email }</td>
